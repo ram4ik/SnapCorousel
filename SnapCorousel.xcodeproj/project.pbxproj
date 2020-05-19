@@ -13,6 +13,11 @@
 		95404C7F2473CA880071C24D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95404C7E2473CA880071C24D /* Assets.xcassets */; };
 		95404C822473CA880071C24D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95404C812473CA880071C24D /* Preview Assets.xcassets */; };
 		95404C852473CA880071C24D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95404C832473CA880071C24D /* LaunchScreen.storyboard */; };
+		95404C8D2473CC670071C24D /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95404C8C2473CC670071C24D /* Item.swift */; };
+		95404C8F2473CC980071C24D /* Canvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95404C8E2473CC980071C24D /* Canvas.swift */; };
+		95404C912473CCE30071C24D /* Carousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95404C902473CCE30071C24D /* Carousel.swift */; };
+		95404C942473CD130071C24D /* UIStateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95404C932473CD130071C24D /* UIStateModel.swift */; };
+		95404C962473CD340071C24D /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95404C952473CD340071C24D /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		95404C812473CA880071C24D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		95404C842473CA880071C24D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95404C862473CA880071C24D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95404C8C2473CC670071C24D /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		95404C8E2473CC980071C24D /* Canvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Canvas.swift; sourceTree = "<group>"; };
+		95404C902473CCE30071C24D /* Carousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carousel.swift; sourceTree = "<group>"; };
+		95404C932473CD130071C24D /* UIStateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStateModel.swift; sourceTree = "<group>"; };
+		95404C952473CD340071C24D /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +66,13 @@
 		95404C772473CA860071C24D /* SnapCorousel */ = {
 			isa = PBXGroup;
 			children = (
+				95404C922473CD090071C24D /* Models */,
 				95404C782473CA860071C24D /* AppDelegate.swift */,
 				95404C7A2473CA860071C24D /* SceneDelegate.swift */,
 				95404C7C2473CA860071C24D /* ContentView.swift */,
+				95404C8C2473CC670071C24D /* Item.swift */,
+				95404C8E2473CC980071C24D /* Canvas.swift */,
+				95404C902473CCE30071C24D /* Carousel.swift */,
 				95404C7E2473CA880071C24D /* Assets.xcassets */,
 				95404C832473CA880071C24D /* LaunchScreen.storyboard */,
 				95404C862473CA880071C24D /* Info.plist */,
@@ -73,6 +87,15 @@
 				95404C812473CA880071C24D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		95404C922473CD090071C24D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				95404C932473CD130071C24D /* UIStateModel.swift */,
+				95404C952473CD340071C24D /* Card.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +169,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95404C8D2473CC670071C24D /* Item.swift in Sources */,
 				95404C792473CA860071C24D /* AppDelegate.swift in Sources */,
 				95404C7B2473CA860071C24D /* SceneDelegate.swift in Sources */,
+				95404C912473CCE30071C24D /* Carousel.swift in Sources */,
+				95404C8F2473CC980071C24D /* Canvas.swift in Sources */,
+				95404C942473CD130071C24D /* UIStateModel.swift in Sources */,
 				95404C7D2473CA860071C24D /* ContentView.swift in Sources */,
+				95404C962473CD340071C24D /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
